@@ -18,7 +18,7 @@ const Home = () => {
       {/* <FireworksBackground /> */}
       <div className='hero-section' >
         <div className='hero-main-heading'>
-          <h1 className='hero-heading' >Event Eclipse</h1>
+          <h1 className='hero-heading' >Hollo</h1>
           <p className='hero-text' >Welcome to EventEclipse, The Revolutionary Digital Heaven for finding and booking event venues</p>
         </div>
       </div>

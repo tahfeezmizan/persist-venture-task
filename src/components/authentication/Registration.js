@@ -95,7 +95,16 @@ const Registration = () => {
               </div> 
               <div className="input-box"> 
                 <FaPhone className="icon" /> 
-                <input type="tel" placeholder="Mobile" id="mobile" name="mobile" pattern="[0-9]{10}" value={formData.mobile} onChange={handleChange} required /> 
+                <input 
+                  type="tel" 
+                  placeholder="Mobile" 
+                  id="mobile" 
+                  name="mobile" 
+                  pattern="[0-9]{10}" 
+                  value={formData.mobile} 
+                  onChange={handleChange} 
+                  required 
+                /> 
               </div> 
             </div> 
             <div className="input-box"> 
